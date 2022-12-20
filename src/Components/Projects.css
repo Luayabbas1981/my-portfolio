@@ -107,7 +107,7 @@ section{
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    background: linear-gradient(90deg, rgb(192, 192, 193) 40%, rgb(243, 242, 244) 66%);
+    background: linear-gradient(90deg, #fff  40%, rgb(166, 166, 166) 82%);
     animation: loop 4s linear infinite;
     -webkit-animation: loop 4s linear infinite;
    
