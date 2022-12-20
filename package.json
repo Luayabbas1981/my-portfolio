@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://github.com/Luayabbas1981/my-portfolio",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.0",
