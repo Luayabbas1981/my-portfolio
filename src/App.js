@@ -12,6 +12,7 @@ function App() {
     <Router>
     <Header/>
     <Routes>
+    <Route path={"/my-portfolio"} element={<Projects />} />
     <Route path={"/"} element={<Projects />} />
     <Route path={"/aboutme"} element={<AboutMe />} />
     <Route path={"/contact"} element={<Contact />} />
