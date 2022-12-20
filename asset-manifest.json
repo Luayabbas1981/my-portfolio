@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Luayabbas1981/my-portfolio/static/css/main.df91f0a2.css",
+    "main.js": "/Luayabbas1981/my-portfolio/static/js/main.29b4e229.js",
+    "static/media/2.png": "/Luayabbas1981/my-portfolio/static/media/2.7cd5e60223ed784c6e88.png",
+    "static/media/0.png": "/Luayabbas1981/my-portfolio/static/media/0.40ce161f5889174dd0c7.png",
+    "static/media/3.png": "/Luayabbas1981/my-portfolio/static/media/3.002ca092c57c01ce7fcb.png",
+    "static/media/1.png": "/Luayabbas1981/my-portfolio/static/media/1.a2c7b018ad6081e78ed2.png",
+    "static/media/4.png": "/Luayabbas1981/my-portfolio/static/media/4.edd8ac07d7cbec0d268e.png",
+    "static/media/13.png": "/Luayabbas1981/my-portfolio/static/media/13.7a399fb86d0bf49206cd.png",
+    "static/media/10.png": "/Luayabbas1981/my-portfolio/static/media/10.1603a380670819969697.png",
+    "static/media/12.png": "/Luayabbas1981/my-portfolio/static/media/12.65cd80a37f8233178b21.png",
+    "static/media/18.png": "/Luayabbas1981/my-portfolio/static/media/18.502c7835f63014055bb0.png",
+    "static/media/11.png": "/Luayabbas1981/my-portfolio/static/media/11.534646d53b8c66ee5423.png",
+    "static/media/6.png": "/Luayabbas1981/my-portfolio/static/media/6.9ce80ebdfc79cb168f49.png",
+    "static/media/14.png": "/Luayabbas1981/my-portfolio/static/media/14.aa19e304ad36021f2b7b.png",
+    "static/media/5.png": "/Luayabbas1981/my-portfolio/static/media/5.aa90070f63ccf6f5ad81.png",
+    "static/media/7.png": "/Luayabbas1981/my-portfolio/static/media/7.c536a7dc1e33337773b3.png",
+    "static/media/15.png": "/Luayabbas1981/my-portfolio/static/media/15.cf9296c099187c47bb5c.png",
+    "static/media/17.png": "/Luayabbas1981/my-portfolio/static/media/17.95792c93d61c82ddb866.png",
+    "static/media/16.png": "/Luayabbas1981/my-portfolio/static/media/16.43872c46610604ed4258.png",
+    "static/media/9.png": "/Luayabbas1981/my-portfolio/static/media/9.7b6b7b9ea47104f6fe08.png",
+    "static/media/8.png": "/Luayabbas1981/my-portfolio/static/media/8.2075ccbe2ce42878ad65.png",
+    "index.html": "/Luayabbas1981/my-portfolio/index.html",
+    "main.df91f0a2.css.map": "/Luayabbas1981/my-portfolio/static/css/main.df91f0a2.css.map",
+    "main.29b4e229.js.map": "/Luayabbas1981/my-portfolio/static/js/main.29b4e229.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df91f0a2.css",
+    "static/js/main.29b4e229.js"
+  ]
+}
