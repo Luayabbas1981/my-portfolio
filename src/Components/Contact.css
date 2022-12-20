@@ -18,10 +18,16 @@
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-  
+    animation: flip 1.5s linear alternate-reverse;
+    -webkit-animation: flip 1.5s linear alternate-reverse;
 }
 .box:hover{
     rotate: y 180deg;
+}
+@keyframes flip {
+    to{
+        rotate: y 180deg;
+    }
 }
 .github , .linkedin{
     width: 300px;

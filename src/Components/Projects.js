@@ -3,6 +3,12 @@ import "./Projects.css"
 import { cssArr,domArr,reactArr } from './ProjectsArr.js'
 
 function Projects() {
+
+
+  function scroll(){
+    window.stop()
+    window.scrollTo(0,0)
+  }
   
  useEffect(()=>{
 
@@ -14,7 +20,7 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
 },[])
          
   return (
-<main id='main'>
+<main >
 <section className='css-sec sec '>
     <div className='sec-bc'></div>
     <div className='css-sec-header' style={{ color: "#a719a2"}}>Css projects</div>
@@ -89,14 +95,14 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
         )
     })} 
     </div>
-    <a href="">
-  <div className='go-up'> 
+  
+  <div className='go-up' onClick={scroll}> 
   <i className="fa-solid fa-angles-up">
     
     </i>
    
     </div>
-    </a>
+
 </section>
 </main>
   )
