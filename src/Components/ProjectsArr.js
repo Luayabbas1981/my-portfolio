@@ -117,4 +117,3 @@ export const reactArr = [
     }
 ]
 
-export const contactArr = [1,2,3,4,5]
