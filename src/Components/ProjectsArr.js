@@ -116,3 +116,5 @@ export const reactArr = [
         link:"https://luayabbas1981.github.io/react-cats/"
     }
 ]
+
+export const contactArr = [1,2,3,4,5]
