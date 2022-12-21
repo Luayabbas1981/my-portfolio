@@ -9,19 +9,23 @@ function Contact() {
     <>
     
     <div className='contacts-container'>
-      <div className="box">
-        <div className="face front" style={{color:"royalblue"}}><i className="fa-solid fa-envelope"></i></div>
-        <div className="face back">abbasluay1981@gmail.com</div>
+      <div className="box" style={{color:"royalblue"}}>
+        <div className="face front" ><i className="fa-solid fa-envelope"></i></div>
+        <div className="face back" >
+          abbasluay1981@gmail.com
+       
+        </div>
       </div>
-      <div className="box">
-        <div className="face front" style={{color:"#ff6f00"}}><i className="fa-solid fa-map-location-dot"></i></div>
+      <div className="box" style={{color:"#ff6f00"}}>
+        <div className="face front"><i className="fa-solid fa-map-location-dot"></i></div>
         <div className="face back" style={{flexDirection:"column"}}>
           <div>Mathildenst.25</div>
           <div>51149 Köln</div>
+          
         </div>
       </div>
-      <div className="box">
-        <div className="face front" style={{color:"#0691b5"}}><i className="fa-solid fa-phone"></i></div>
+      <div className="box" style={{color:"#0691b5"}}>
+        <div className="face front" ><i className="fa-solid fa-phone"></i></div>
         <div className="face back" >+49 157 8090 2670</div>
       </div>
       <div className="github">

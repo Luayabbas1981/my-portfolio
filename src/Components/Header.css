@@ -13,16 +13,24 @@ header{
 
 header > div {
     cursor: pointer;
-    scale: 0 1;
+    rotate: y 90deg;
+    font-size: 30px;
     animation: show-head 1.5s forwards;
     -webkit-animation: show-head 1.5s forwards;
     color: #4e8bc8;
-   
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
+header > div:hover{
+    scale: 1.2;
+}
 
 @keyframes show-head {
     to{
-        scale: 1.4 1.2;
+        rotate: y 0deg;
     }
 }

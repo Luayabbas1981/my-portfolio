@@ -2,7 +2,11 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <div>AboutMe</div>
+    <>
+    <main className='about-main'>
+      <section></section>
+    </main>
+    </>
   )
 }
 

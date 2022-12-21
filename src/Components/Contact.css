@@ -9,8 +9,8 @@
 }
 .box{
     position: relative;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     cursor: pointer;
     transform-style: preserve-3d;
     transition: 1s;
@@ -18,26 +18,21 @@
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-    animation: flip 1.5s linear alternate-reverse;
-    -webkit-animation: flip 1.5s linear alternate-reverse;
+   
 }
 .box:hover{
     rotate: y 180deg;
 }
-@keyframes flip {
-    to{
-        rotate: y 180deg;
-    }
-}
+
 .github , .linkedin{
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #eee;
     cursor: pointer;
-    font-size:66px ;
+    font-size:64px ;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -54,7 +49,7 @@
     align-items: center;
     background-color: #eee;
     font-size: 60px;
-    color: #717070;
+    color: inherit;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -68,4 +63,5 @@
 .back{
     rotate: y 180deg;
     font-size: 22px;
+    color: inherit;
 }
