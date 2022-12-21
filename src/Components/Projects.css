@@ -194,4 +194,6 @@ img{
      
     }
   }
-  
+  #hidden{
+    display: none;
+  }

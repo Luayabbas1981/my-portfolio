@@ -1,8 +1,9 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import "./Projects.css"
 import { cssArr,domArr,reactArr } from './ProjectsArr.js'
 
 function Projects() {
+  const [showArrow,setShowArrow] = useState(false)
 
   function scrollDown (){
     window.scrollBy(0,950)
@@ -17,10 +18,10 @@ function Projects() {
 setTimeout(()=>{
  const cssPros =   document.querySelectorAll(".pro-container")
 cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
-                    
+  setShowArrow(true)            
  },3500)
 },[])
-         
+        console.log(showArrow) 
   return (
 <main>
 <section className='css-sec sec '>
@@ -46,7 +47,7 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
         )
     })} 
     </div>
-    <div className='go-down' onClick={scrollDown}> 
+    <div id={showArrow? "": "hidden"} className='go-down' onClick={scrollDown}> 
   <i className="fa-solid fa-angles-down">
     
     </i>
@@ -54,7 +55,7 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
     </div>
  
 </section>
-<section className='dom-sec sec hidden'>
+<section className='dom-sec sec '>
     <div className='sec-bc'></div>
     <div className='dom-sec-header' style={{ color: "navy"}}>Dom projects</div>
     <div className='dom-pros-container '>
