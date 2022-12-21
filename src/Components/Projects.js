@@ -4,7 +4,7 @@ import { cssArr,domArr,reactArr } from './ProjectsArr.js'
 
 function Projects() {
 
-
+  
   function scroll(){
     window.stop()
     window.scrollTo(0,0)
@@ -20,7 +20,7 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
 },[])
          
   return (
-<main >
+<main>
 <section className='css-sec sec '>
     <div className='sec-bc'></div>
     <div className='css-sec-header' style={{ color: "#a719a2"}}>Css projects</div>
@@ -44,7 +44,7 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
         )
     })} 
     </div>
-  
+ 
 </section>
 <section className='dom-sec sec hidden'>
     <div className='sec-bc'></div>
@@ -69,7 +69,7 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
         )
     })} 
     </div>
-  
+   
 </section>
 
 <section className='react-sec sec '>
@@ -96,13 +96,13 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
     })} 
     </div>
   
-  <div className='go-up' onClick={scroll}> 
+ { <div className='go-up' onClick={scroll}> 
   <i className="fa-solid fa-angles-up">
     
     </i>
    
     </div>
-
+ }
 </section>
 </main>
   )

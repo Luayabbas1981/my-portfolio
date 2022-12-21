@@ -6,6 +6,7 @@ section{
     perspective: 200px;
     overflow-x: hidden;
     
+    
 }
 .sec-bc{
    position: absolute;
@@ -176,3 +177,4 @@ img{
      
     }
   }
+  
