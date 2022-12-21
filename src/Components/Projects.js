@@ -4,8 +4,10 @@ import { cssArr,domArr,reactArr } from './ProjectsArr.js'
 
 function Projects() {
 
-  
-  function scroll(){
+  function scrollDown (){
+    window.scrollBy(0,950)
+  }
+  function scrollUp(){
     window.stop()
     window.scrollTo(0,0)
   }
@@ -44,6 +46,12 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
         )
     })} 
     </div>
+    <div className='go-down' onClick={scrollDown}> 
+  <i className="fa-solid fa-angles-down">
+    
+    </i>
+   
+    </div>
  
 </section>
 <section className='dom-sec sec hidden'>
@@ -69,7 +77,13 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
         )
     })} 
     </div>
+    <div className='go-down' onClick={scrollDown}> 
+  <i className="fa-solid fa-angles-down">
+    
+    </i>
    
+    </div>
+ 
 </section>
 
 <section className='react-sec sec '>
@@ -96,16 +110,17 @@ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
     })} 
     </div>
   
- { <div className='go-up' onClick={scroll}> 
+  <div className='go-up' onClick={scrollUp}> 
   <i className="fa-solid fa-angles-up">
     
     </i>
    
     </div>
- }
+ 
 </section>
 </main>
   )
 }
 
 export default Projects
+

@@ -155,7 +155,7 @@ img{
     width: 100%;
     height: 100%;
 }
-.go-up{
+.go-up , .go-down{
    position: absolute;
    top: 82%;
    left: 88%;
@@ -165,10 +165,27 @@ img{
    background-clip: text;
    color: transparent;
    background-size: 100% 150%;
-   animation: bc-move 1s infinite alternate-reverse;
-   -webkit-animation: bc-move 1s infinite alternate-reverse;
+  
 }
-@keyframes bc-move {
+
+.go-up{
+    animation: bc-move-up 1.5s infinite ;
+    -webkit-animation: bc-move-up 1.5s infinite ;
+}
+.go-down{
+    animation: bc-move-down 1.5s infinite ;
+    -webkit-animation: bc-move-down 1.5s infinite ;
+}
+@keyframes bc-move-up {
+    from {
+      background-position: 0% 0%;
+    }
+    to {
+      background-position: 0% 100%;
+     
+    }
+  }
+  @keyframes bc-move-down {
     from {
       background-position: 0% 100%;
     }
