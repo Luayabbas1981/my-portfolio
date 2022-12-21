@@ -13,6 +13,9 @@
 .sec-one{
    grid-column: 2;
    grid-row: 1/-1;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
    border: 1px solid #00bcd4;
    box-shadow: 2px 2px 8px #2196f3;
    border-radius: 1rem;
@@ -24,26 +27,40 @@
    animation: show-sec-one 1s  linear forwards;
    -webkit-animation: show-sec-one 1s  linear forwards;
 }
-
+.part-one{
+    width: 60%;
+    color: #656363;
+}
+.part-two{
+    width: 40%;
+   margin-left: 50px;
+    color: #656363;
+}
+.middle{
+    width: .2%;
+    height: 75%;
+    background-color: gray;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+.sec-one ul  {
+    width: 92%;
+    margin: auto;
+}
+ p{
+    color: darkblue;
+}
+.title{
+    color: #2196f3;
+    width: 90%;
+   margin: auto;
+   font-size: large;
+}
 .sec-two{
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 1/-1;
     border: 1px solid #ff9800;
     box-shadow: 2px 2px 8px #ff5722;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    scale: 0 1;
-    animation: show-sec-one 1s  linear forwards;
-    -webkit-animation: show-sec-one 1s  linear forwards;
-}
-.sec-three{
-    grid-column: 3;
-    grid-row: 2;
-    border: 1px solid #9c27b0;
-    box-shadow: 2px 2px 8px #673ab7;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
