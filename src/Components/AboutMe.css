@@ -1,6 +1,61 @@
 .about-main{
-    height: 100vh;
+    height: 83vh;
+    width: 100%;
+    margin: auto;
+    translate: 0% 20%;
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 3% 40% 40% 3%;
     grid-template-rows: 45% 45%;
+    column-gap: 5rem;
+    row-gap: 2rem;
+}
+
+.sec-one{
+   grid-column: 2;
+   grid-row: 1/-1;
+   border: 1px solid #00bcd4;
+   box-shadow: 2px 2px 8px #2196f3;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+   scale: 1 0;
+   animation: show-sec-one 1s  linear forwards;
+   -webkit-animation: show-sec-one 1s  linear forwards;
+}
+
+.sec-two{
+    grid-column: 3;
+    grid-row: 1;
+    border: 1px solid #ff9800;
+    box-shadow: 2px 2px 8px #ff5722;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    scale: 0 1;
+    animation: show-sec-one 1s  linear forwards;
+    -webkit-animation: show-sec-one 1s  linear forwards;
+}
+.sec-three{
+    grid-column: 3;
+    grid-row: 2;
+    border: 1px solid #9c27b0;
+    box-shadow: 2px 2px 8px #673ab7;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    scale: 0 1;
+    animation: show-sec-one 1s  linear forwards;
+    -webkit-animation: show-sec-one 1s  linear forwards;
+}
+
+@keyframes show-sec-one {
+to{
+scale: 1 1;
+}
 }

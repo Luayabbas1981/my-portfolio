@@ -5,7 +5,9 @@ function AboutMe() {
   return (
     <>
     <main className='about-main'>
-      <section></section>
+    <section className='sec-one'></section>
+    <section className='sec-two'></section>
+    <section className='sec-three'></section>
     </main>
     </>
   )
