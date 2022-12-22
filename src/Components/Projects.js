@@ -31,7 +31,7 @@ function Projects() {
 <main>
 <section className='css-sec sec '>
     <div className='sec-bc'></div>
-    <div className='css-sec-header' style={{ color: "#a719a2"}}>Css projects 2022</div>
+    <div className='css-sec-header' style={{ color: "#528ba6"}}>Css projects 2022</div>
     <div className='css-pros-container '>
 
     {cssArr.map((pro,i)=>{

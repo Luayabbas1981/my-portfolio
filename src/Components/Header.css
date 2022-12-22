@@ -17,7 +17,7 @@ header > div {
     font-size: 30px;
     animation: show-head 1.5s forwards;
     -webkit-animation: show-head 1.5s forwards;
-    color: #238fe8;
+    color: rgb(192, 191, 191);
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -26,7 +26,8 @@ header > div {
 }
 
 header > div:hover{
-    scale: 1.2;
+    scale: 1.1;
+    color: royalblue;
 }
 
 @keyframes show-head {
