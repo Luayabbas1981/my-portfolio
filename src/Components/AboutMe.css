@@ -29,12 +29,12 @@
 }
 .part-one{
     width: 60%;
-    color: #656363;
+    color: #4b6b7c;
 }
 .part-two{
     width: 40%;
    margin-left: 50px;
-    color: #656363;
+    color: #4b6b7c;
 }
 .middle{
     width: .2%;
@@ -46,7 +46,9 @@
 .sec-one ul  {
     width: 92%;
     margin: auto;
+    list-style: none;
 }
+li::before {content: "• "; color: #fd8522}
  p{
     color: darkblue;
 }
@@ -75,4 +77,20 @@
 to{
 scale: 1 1;
 }
+}
+
+.sec-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.slider-container{
+    width: 90%;
+    margin: auto;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    
 }

@@ -15,13 +15,15 @@ function Projects() {
   
  useEffect(()=>{
 
-setTimeout(()=>{
- const cssPros =   document.querySelectorAll(".pro-container")
-cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
-           
+   setTimeout(()=>{
+  const cssPros =   document.querySelectorAll(".pro-container")
+ cssPros.forEach((el)=> el.setAttribute("class","show-pro"))
+        
  },3500)
  setTimeout(()=>{
   setShowArrow(true)  
+ 
+
  },7500)
 },[])
         console.log(showArrow) 

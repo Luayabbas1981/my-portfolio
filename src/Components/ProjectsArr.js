@@ -4,6 +4,10 @@ export const cssArr = [
         link:"https://luayabbas1981.github.io/css-magic/"
     },
     {
+        name:"Deer",
+        link:"https://luayabbas1981.github.io/Deer/"
+    },
+    {
         name:"Atoms",
         link:"https://luayabbas1981.github.io/atoms/"
     },
@@ -23,10 +27,7 @@ export const cssArr = [
         name:"Fox",
         link:"https://luayabbas1981.github.io/Fox/"
     },
-    {
-        name:"Deer",
-        link:"https://luayabbas1981.github.io/Deer/"
-    },
+   
     {
         name:"Logo",
         link:"https://luayabbas1981.github.io/logo/"
