@@ -31,7 +31,7 @@ function Projects() {
 <main>
 <section className='css-sec sec '>
     <div className='sec-bc'></div>
-    <div className='css-sec-header' style={{ color: "#a719a2"}}>Css projects</div>
+    <div className='css-sec-header' style={{ color: "#a719a2"}}>Css projects 2022</div>
     <div className='css-pros-container '>
 
     {cssArr.map((pro,i)=>{
@@ -62,7 +62,7 @@ function Projects() {
 </section>
 <section className='dom-sec sec '>
     <div className='sec-bc'></div>
-    <div className='dom-sec-header' style={{ color: "navy"}}>Dom projects</div>
+    <div className='dom-sec-header' style={{ color: "navy"}}>Dom projects 2022</div>
     <div className='dom-pros-container '>
 
     {domArr.map((pro,i)=>{
@@ -94,7 +94,7 @@ function Projects() {
 
 <section className='react-sec sec '>
     <div className='sec-bc'></div>
-    <div className='react-sec-header' style={{ color: "royalblue"}}>React projects</div>
+    <div className='react-sec-header' style={{ color: "royalblue"}}>React projects 2022</div>
     <div className='react-pros-container '>
 
     {reactArr.map((pro,i)=>{

@@ -1,7 +1,31 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import "./AboutMe.css"
 
 function AboutMe() {
+  const [counter,setCounter]= useState(1)
+
+  useEffect(()=>{
+    
+  },[counter])
+  
+  
+  function firstLayer(){
+    document.querySelector("#two").removeAttribute("class","z-index")
+    document.querySelector("#three").removeAttribute("class","z-index")
+    document.querySelector("#one").setAttribute("class","z-index")
+   
+    setCounter(2)
+  }
+  function secondLayer(){
+    document.querySelector("#one").removeAttribute("class","z-index")
+    document.querySelector("#two").setAttribute("class","z-index")
+    setCounter(3)
+  }
+  function thirdLayer(){
+    document.querySelector("#two").removeAttribute("class","z-index")
+    document.querySelector("#three").setAttribute("class","z-index")
+    setCounter(1)
+  }
   return (
     <>
     <main className='about-main'>
@@ -28,9 +52,9 @@ function AboutMe() {
         </ul>
         <ul>
           <p>Languages:</p>
-          <li>Arabic native language</li>
-          <li>German C1 level</li>
-          <li>English B2 level</li>
+          <li>Arabic, native language</li>
+          <li>German, C1 level</li>
+          <li>English, B2 level</li>
         </ul>
       </div>
       <div className="middle"></div>
@@ -51,14 +75,29 @@ function AboutMe() {
       </div>
     </section>
     <section className='sec-two'>
-   <div className="slider-container"></div>
-   <div className="slider">
-    <img src="" alt="" />
-    <img src="" alt="" />
-    <img src="" alt="" />
+   <div className="certificates-container">
+    <div>Certificates</div>
+      <div className="slider">
+        <div id='one' className='z-index' ><img src={require("./SlideImages/Icdl.png")} alt="" />
+
+          <i className="fa-solid fa-angles-right" onClick={secondLayer} ></i>
+          <span>{counter}</span>
+        </div>
+        <div id='two' className='z-index'><img src={require("./SlideImages/C1.png")} alt="" />
+
+        <i className="fa-solid fa-angles-right" onClick={thirdLayer}></i>
+        </div>
+        <div id='three' className='z-index'><img src={require("./SlideImages/Edu.png")} alt="" />
+
+        <i className="fa-solid fa-angles-right" onClick={firstLayer}></i>
+        </div>
+
+      </div>
+   
+  
+
    </div>
-   <i class="fa-solid fa-angles-left"></i>
-   <i class="fa-solid fa-angles-right"></i>
+   
     </section>
   
     </main>
