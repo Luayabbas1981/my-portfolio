@@ -81,7 +81,7 @@ function AboutMe() {
         <div id='one' className='z-index' ><img src={require("./SlideImages/Icdl.png")} alt="" />
 
           <i className="fa-solid fa-angles-right" onClick={secondLayer} ></i>
-          <span>{counter}</span>
+          <span>{counter}/3</span>
         </div>
         <div id='two' className='z-index'><img src={require("./SlideImages/C1.png")} alt="" />
 
