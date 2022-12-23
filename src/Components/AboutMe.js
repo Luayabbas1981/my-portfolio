@@ -10,7 +10,7 @@ function AboutMe() {
   
   
   function firstLayer(){
-    document.querySelector("#two").removeAttribute("class","z-index")
+   
     document.querySelector("#three").removeAttribute("class","z-index")
     document.querySelector("#one").setAttribute("class","z-index")
    
@@ -78,20 +78,20 @@ function AboutMe() {
    <div className="certificates-container">
     <div>Certificates</div>
       <div className="slider">
-        <div id='one' className='z-index' ><img src={require("./SlideImages/Icdl.png")} alt="" />
+        <div id='one' ><img src={require("./SlideImages/Icdl.png")} alt="" />
 
           <i className="fa-solid fa-angles-right" onClick={secondLayer} ></i>
-          <span>{counter}/3</span>
+          
         </div>
-        <div id='two' className='z-index'><img src={require("./SlideImages/C1.png")} alt="" />
+        <div id='two' ><img src={require("./SlideImages/C1.png")} alt="" />
 
         <i className="fa-solid fa-angles-right" onClick={thirdLayer}></i>
         </div>
-        <div id='three' className='z-index'><img src={require("./SlideImages/Edu.png")} alt="" />
+        <div id='three' ><img src={require("./SlideImages/Edu.png")} alt="" />
 
         <i className="fa-solid fa-angles-right" onClick={firstLayer}></i>
         </div>
-
+        <span>{counter}/3</span>
       </div>
    
   
