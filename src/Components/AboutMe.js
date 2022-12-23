@@ -2,11 +2,11 @@ import React,{useState,useEffect} from 'react'
 import "./AboutMe.css"
 
 function AboutMe() {
-  const [counter,setCounter]= useState(1)
+  const [pageNum,setPageNum]= useState(1)
 
   useEffect(()=>{
     
-  },[counter])
+  },[pageNum])
   
   
   function firstLayer(){
@@ -14,17 +14,17 @@ function AboutMe() {
     document.querySelector("#three").removeAttribute("class","z-index")
     document.querySelector("#one").setAttribute("class","z-index")
    
-    setCounter(2)
+    setPageNum(2)
   }
   function secondLayer(){
     document.querySelector("#one").removeAttribute("class","z-index")
     document.querySelector("#two").setAttribute("class","z-index")
-    setCounter(3)
+    setPageNum(3)
   }
   function thirdLayer(){
     document.querySelector("#two").removeAttribute("class","z-index")
     document.querySelector("#three").setAttribute("class","z-index")
-    setCounter(1)
+    setPageNum(1)
   }
   return (
     <>
@@ -91,7 +91,7 @@ function AboutMe() {
 
         <i className="fa-solid fa-angles-right" onClick={firstLayer}></i>
         </div>
-        <span>{counter}/3</span>
+        <span>{pageNum}/3</span>
       </div>
    
   
