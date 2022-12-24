@@ -1,12 +1,10 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import "./AboutMe.css"
 
 function AboutMe() {
   const [pageNum,setPageNum]= useState(1)
 
-  useEffect(()=>{
-    
-  },[pageNum])
+ 
   
   
   function firstLayer(){
