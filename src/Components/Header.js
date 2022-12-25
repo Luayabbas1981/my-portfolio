@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { useNavigate } from "react-router-dom";
 import "./Header.css"
 
-function Header({setHome,setAboutMe,setContact,home,aboutMe,contact}) {
-    const navigat = useNavigate()
+function Header() {
+  const [home,setHome]= useState(true)
+  const [aboutMe,setAboutMe]= useState(false)
+  const [contact,setContact]= useState(false)
+  const navigat = useNavigate()
 
     function homeHandler (){
       navigat("/")
