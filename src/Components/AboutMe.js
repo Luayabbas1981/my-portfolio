@@ -1,10 +1,10 @@
 import React,{useState} from 'react'
 import "./AboutMe.css"
 
-function AboutMe() {
+function AboutMe({}) {
   const [pageNum,setPageNum]= useState(1)
 
- 
+  
   
   
   function firstLayer(){

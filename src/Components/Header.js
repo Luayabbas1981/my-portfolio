@@ -2,14 +2,37 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import "./Header.css"
 
-function Header() {
+function Header({setHome,setAboutMe,setContact,home,aboutMe,contact}) {
     const navigat = useNavigate()
+
+    function homeHandler (){
+      navigat("/")
+      setHome(true)
+      setAboutMe(false)
+      setContact(false)
+      
+    }
+    function aboutMeHandler (){
+      navigat("/aboutme")
+      setAboutMe(true)
+      setHome(false)
+      setContact(false)
+      
+    }
+    function contactHandler (){
+      navigat("/contact")
+      setContact(true)
+      setHome(false)
+      setAboutMe(false)
+      
+    }
+    console.log(contact)
   return (
    <>
    <header>
-    <div onClick={()=>navigat("/")}>My projects</div>
-    <div onClick={()=>navigat("/aboutme")}>About me</div>
-    <div onClick={()=>navigat("/contact")}>Contact</div>
+    <div onClick={homeHandler} style={{color:`${home? "royalblue":"#c0bfbf"}`}}>My projects</div>
+    <div onClick={aboutMeHandler} style={{color:`${aboutMe? "royalblue":"#c0bfbf"}`}}>About me</div>
+    <div onClick={contactHandler  } style={{color:`${contact? "royalblue":"#c0bfbf"}`}}>Contact</div>
    </header>
    </>
   )
