@@ -96,10 +96,10 @@
  
 @keyframes scale {
     to{
-        scale: 1.7;
-        z-index: 22;
-      
-    }
+     
+       z-index: 22;
+       scale: 1.7;
+}
 }
 .css-pro-bc ,.dom-pro-bc , .react-pro-bc{
     position: absolute;

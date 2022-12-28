@@ -13,17 +13,24 @@
     height: 330px;
     cursor: pointer;
     transform-style: preserve-3d;
+    rotate: y 140deg;
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-   
+    animation: box-loop 1s linear forwards;
+    -webkit-animation: box-loop 1s linear forwards;
 }
 .box:hover{
     rotate: y 180deg;
 }
 
+@keyframes box-loop {
+    to{
+        rotate: y 0deg;
+    }
+}
 .github , .linkedin{
     width: 280px;
     height: 330px;
