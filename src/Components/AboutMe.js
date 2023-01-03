@@ -9,7 +9,7 @@ function AboutMe({}) {
   
   function firstLayer(){
    
-    document.querySelector("#three").removeAttribute("class","z-index")
+    document.querySelector("#four").removeAttribute("class","z-index")
     document.querySelector("#one").setAttribute("class","z-index")
    
     setPageNum(2)
@@ -22,6 +22,11 @@ function AboutMe({}) {
   function thirdLayer(){
     document.querySelector("#two").removeAttribute("class","z-index")
     document.querySelector("#three").setAttribute("class","z-index")
+    setPageNum(4)
+  }
+  function fourthLayer(){
+    document.querySelector("#three").removeAttribute("class","z-index")
+    document.querySelector("#four").setAttribute("class","z-index")
     setPageNum(1)
   }
   return (
@@ -72,6 +77,8 @@ function AboutMe({}) {
        
       </div>
     </section>
+
+
     <section className='sec-two'>
    <div className="certificates-container">
     <div>Certificates</div>
@@ -87,9 +94,13 @@ function AboutMe({}) {
         </div>
         <div id='three' ><img src={require("./SlideImages/Edu.png")} alt="" />
 
+        <i className="fa-solid fa-angles-right" onClick={fourthLayer}></i>
+        </div>
+        <div id='four' ><img src={require("./SlideImages/DCI-Certificate.png")} alt="" />
+
         <i className="fa-solid fa-angles-right" onClick={firstLayer}></i>
         </div>
-        <span>{pageNum}/3</span>
+        <span>{pageNum}/4</span>
       </div>
    
   

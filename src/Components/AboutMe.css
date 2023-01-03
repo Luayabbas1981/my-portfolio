@@ -96,7 +96,7 @@ scale: 1 1;
     top: 45%;
     left: 50%;
     translate: -50% -50%;
-    width: 65%;
+    width: 60%;
     height: 75%;
     display: flex;
 }
@@ -134,8 +134,8 @@ span{
 }
 .z-index{
     z-index: 10;
-    animation: blur .4s linear forwards;
-    -webkit-animation: blur .4s linear forwards;
+    animation: blur .3s linear forwards;
+    -webkit-animation: blur .3s linear forwards;
 }
 
 @keyframes blur {
