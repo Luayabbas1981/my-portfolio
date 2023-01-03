@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bbb4f026.css",
-    "main.js": "/my-portfolio/static/js/main.c0b80fe3.js",
+    "main.css": "/my-portfolio/static/css/main.975990c3.css",
+    "main.js": "/my-portfolio/static/js/main.81cd3526.js",
     "static/media/2.png": "/my-portfolio/static/media/2.a2c7b018ad6081e78ed2.png",
     "static/media/Edu.png": "/my-portfolio/static/media/Edu.de57d7a67fb33498fdd6.png",
     "static/media/Icdl.png": "/my-portfolio/static/media/Icdl.087b7768815b64fc3dda.png",
@@ -11,6 +11,7 @@
     "static/media/1.png": "/my-portfolio/static/media/1.9ce80ebdfc79cb168f49.png",
     "static/media/5.png": "/my-portfolio/static/media/5.edd8ac07d7cbec0d268e.png",
     "static/media/13.png": "/my-portfolio/static/media/13.7a399fb86d0bf49206cd.png",
+    "static/media/DCI-Certificate.png": "/my-portfolio/static/media/DCI-Certificate.94b5f82907d26b2d6f7b.png",
     "static/media/10.png": "/my-portfolio/static/media/10.1603a380670819969697.png",
     "static/media/12.png": "/my-portfolio/static/media/12.65cd80a37f8233178b21.png",
     "static/media/18.png": "/my-portfolio/static/media/18.502c7835f63014055bb0.png",
@@ -25,11 +26,11 @@
     "static/media/9.png": "/my-portfolio/static/media/9.7b6b7b9ea47104f6fe08.png",
     "static/media/8.png": "/my-portfolio/static/media/8.2075ccbe2ce42878ad65.png",
     "index.html": "/my-portfolio/index.html",
-    "main.bbb4f026.css.map": "/my-portfolio/static/css/main.bbb4f026.css.map",
-    "main.c0b80fe3.js.map": "/my-portfolio/static/js/main.c0b80fe3.js.map"
+    "main.975990c3.css.map": "/my-portfolio/static/css/main.975990c3.css.map",
+    "main.81cd3526.js.map": "/my-portfolio/static/js/main.81cd3526.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbb4f026.css",
-    "static/js/main.c0b80fe3.js"
+    "static/css/main.975990c3.css",
+    "static/js/main.81cd3526.js"
   ]
 }

@@ -28,7 +28,7 @@ function Contact() {
         <div className="face front" ><i className="fa-solid fa-phone"></i></div>
         <div className="face back" >+49 157 8090 2670</div>
       </div>
-      <div className="github">
+      <div className="github" >
      <a href='https://github.com/Luayabbas1981?tab=repositories' target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-github-alt" style={{color:"black"}}></i></a>
        
       </div>
