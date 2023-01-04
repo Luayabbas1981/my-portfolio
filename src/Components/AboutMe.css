@@ -86,7 +86,7 @@ scale: 1 1;
     height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: x-large;
     color: darkblue;
    
@@ -96,8 +96,8 @@ scale: 1 1;
     top: 42%;
     left: 50%;
     translate: -50% -50%;
-    width: 400px;
-    height: 540px;
+    width: 420px;
+    height: 570px;
     display: flex;
 }
 .slider >div {
