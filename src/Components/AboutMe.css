@@ -93,11 +93,11 @@ scale: 1 1;
 }
 .slider{
     position: relative;
-    top: 45%;
+    top: 42%;
     left: 50%;
     translate: -50% -50%;
-    width: 60%;
-    height: 75%;
+    width: 400px;
+    height: 540px;
     display: flex;
 }
 .slider >div {
