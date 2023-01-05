@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import "./AboutMe.css"
+import { jsPDF } from "jspdf";
 
 function AboutMe({}) {
   const [pageNum,setPageNum]= useState(1)
@@ -28,6 +29,47 @@ function AboutMe({}) {
     document.querySelector("#three").removeAttribute("class","z-index")
     document.querySelector("#four").setAttribute("class","z-index")
     setPageNum(1)
+  }
+
+  function downloadIcdl() {
+    const pdfDiv = document.querySelector(".icdl");
+    const doc = new jsPDF("p", "px", [569.5, 450]);
+
+    doc.html(pdfDiv, {
+      async callback(doc) {
+        doc.save(`Icdl.pdf`);
+      },
+    });
+  }
+  function downloadEdu() {
+    const pdfDiv = document.querySelector(".edu");
+    const doc = new jsPDF("p", "px", [591.5, 450]);
+
+    doc.html(pdfDiv, {
+      async callback(doc) {
+        doc.save(`Education.pdf`);
+      },
+    });
+  }
+  function downloadC() {
+    const pdfDiv = document.querySelector(".c1");
+    const doc = new jsPDF("p", "px", [591.5, 450]);
+
+    doc.html(pdfDiv, {
+      async callback(doc) {
+        doc.save(`C1.pdf`);
+      },
+    });
+  }
+  function downloadDci() {
+    const pdfDiv = document.querySelector(".dci");
+    const doc = new jsPDF("p", "px", [539.5, 450]);
+
+    doc.html(pdfDiv, {
+      async callback(doc) {
+        doc.save(`DCI.pdf`);
+      },
+    });
   }
   return (
     <>
@@ -83,23 +125,40 @@ function AboutMe({}) {
    <div className="certificates-container">
     <div>Certificates</div>
       <div className="slider">
-        <div id='one' ><img src={require("./SlideImages/Icdl.png")} alt="" />
+        
+
+        <div id='one' ><img className='icdl' src={require("./SlideImages/Icdl.png")} alt="" />
 
           <i className="fa-solid fa-angles-right" onClick={secondLayer} ></i>
-          
+          <button  onClick={downloadIcdl}>Download</button>
         </div>
-        <div id='two' ><img src={require("./SlideImages/C1.png")} alt="" />
+
+        
+        
+
+        <div id='two' ><img className='c1' src={require("./SlideImages/C1.png")} alt="" />
 
         <i className="fa-solid fa-angles-right" onClick={thirdLayer}></i>
+        <button onClick={downloadC}>Download</button>
         </div>
-        <div id='three' ><img src={require("./SlideImages/Edu.png")} alt="" />
+        
+
+        
+
+        <div id='three' ><img className='edu' src={require("./SlideImages/Edu.png")} alt="" />
 
         <i className="fa-solid fa-angles-right" onClick={fourthLayer}></i>
+        <button onClick={downloadEdu}>Download</button>
         </div>
-        <div id='four' ><img src={require("./SlideImages/DCI-Certificate.png")} alt="" />
+        
+        
+
+        <div id='four' ><img className='dci' src={require("./SlideImages/DCI-Certificate.png")} alt="" />
 
         <i className="fa-solid fa-angles-right" onClick={firstLayer}></i>
+        <button onClick={downloadDci}>Download</button>
         </div>
+       
         <span>{pageNum}/4</span>
       </div>
    
