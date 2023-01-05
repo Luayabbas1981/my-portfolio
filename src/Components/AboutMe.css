@@ -17,6 +17,7 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
+   font-size: 17.7px;
    border: 1px solid #76aac5;
    box-shadow: 2px 2px 8px #4b6b7c;
    border-radius: 1rem;
