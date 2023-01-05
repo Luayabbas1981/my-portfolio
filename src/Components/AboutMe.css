@@ -15,7 +15,7 @@
    grid-column: 2;
    grid-row: 1/-1;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
    font-size: 17.7px;
    border: 1px solid #76aac5;
@@ -32,6 +32,7 @@
 .part-one{
     width: 60%;
     color: #4b6b7c;
+    overflow: auto;
 }
 .part-two{
     width: 40%;
