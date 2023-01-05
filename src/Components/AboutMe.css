@@ -8,10 +8,13 @@
     grid-template-rows: 45% 45%;
     column-gap: 5rem;
     row-gap: 2rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .sec-one{
+   
+    min-height: 740px;
+    overflow-y: auto;
    grid-column: 2;
    grid-row: 1/-1;
    display: flex;
@@ -32,7 +35,7 @@
 .part-one{
     width: 80%;
     color: #4b6b7c;
-    overflow: auto;
+   
 }
 .part-two{
     width: 40%;
@@ -62,6 +65,9 @@ li::before {content: "• "; color: #fd8522}
    font-size: large;
 }
 .sec-two{
+  
+    height: 740px;
+    overflow-y: auto;
     grid-column: 3;
     grid-row: 1/-1;
     border: 1px solid  #76aac5;
