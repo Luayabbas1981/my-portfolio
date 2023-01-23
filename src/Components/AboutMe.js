@@ -95,12 +95,12 @@ function AboutMe({}) {
         <li> Primary school teacher  2000 - 2015, Syria</li>
         <li> Computer repair in one's own computer workshop</li>
         </ul>
-        <ul>
+       {/*  <ul>
           <p>Languages:</p>
           <li>Arabic, native language</li>
           <li>German, C1 level</li>
           <li>English, B2 level</li>
-        </ul>
+        </ul> */}
       </div>
       <div className="middle"></div>
       <div className="part-two">
@@ -116,7 +116,12 @@ function AboutMe({}) {
           <li>HTML5</li>
           <li>Microsoft office</li>
         </ul>
-       
+        <ul>
+          <p className='lang'>Languages:</p>
+          <li>Arabic, native language</li>
+          <li>German, C1 level</li>
+          <li>English, B2 level</li>
+        </ul>
       </div>
     </section>
 

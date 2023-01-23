@@ -33,12 +33,12 @@
    -webkit-animation: show-sec-one 1s  linear forwards;
 }
 .part-one{
-    width: 80%;
+    width: 55%;
     color: #4b6b7c;
    
 }
 .part-two{
-    width: 40%;
+    width: 45%;
    margin-left: 50px;
     color: #4b6b7c;
 }
@@ -57,6 +57,9 @@
 li::before {content: "• "; color: #fd8522}
  p{
     color: darkblue;
+}
+.lang {
+        margin: 35px 0px  20px -45px;
 }
 .title{
     color: #2196f3;
