@@ -33,9 +33,9 @@ function Header() {
   return (
    <>
    <header>
-    <div onClick={homeHandler} style={{color:`${home? "royalblue":"#c0bfbf"}`}}>Projects</div>
-    <div onClick={aboutMeHandler} style={{color:`${aboutMe? "royalblue":"#c0bfbf"}`}}>About me</div>
-    <div onClick={contactHandler  } style={{color:`${contact? "royalblue":"#c0bfbf"}`}}>Contact</div>
+    <div onClick={homeHandler} style={{color:`${home? " #47afff":"#c0bfbf"}`}}>Projects</div>
+    <div onClick={aboutMeHandler} style={{color:`${aboutMe? " #47afff":"#c0bfbf"}`}}>About me</div>
+    <div onClick={contactHandler  } style={{color:`${contact? " #47afff":"#c0bfbf"}`}}>Contact</div>
    </header>
    </>
   )

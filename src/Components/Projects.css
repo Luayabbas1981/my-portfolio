@@ -161,7 +161,7 @@ img{
    left: 88%;
    font-size: 45px;
    cursor: pointer;
-   background-image: linear-gradient(180deg, rgb(197, 198, 200) 48%, rgb(71, 175, 255) 58%);
+   background-image: linear-gradient(180deg, rgb(197, 198, 200) 48%, #47afff 58%);
    background-clip: text;
    color: transparent;
    background-size: 100% 150%;
