@@ -53,8 +53,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 4.5rem;
-    row-gap: 1.7rem;
+    column-gap: 2%;
+    row-gap: 4%;
   
 }
 
@@ -157,8 +157,8 @@ img{
 }
 .go-up , .go-down{
    position: absolute;
-   top: 82%;
-   left: 88%;
+   top: 800px;
+   left: 1650px;
    font-size: 45px;
    cursor: pointer;
    background-image: linear-gradient(180deg, rgb(197, 198, 200) 48%, #47afff 58%);

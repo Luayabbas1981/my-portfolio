@@ -6,7 +6,7 @@ function Projects() {
   const [showArrow,setShowArrow] = useState(false)
 
   function scrollDown (){
-    window.scrollBy(0,950)
+    window.scrollBy(0,980)
   }
   function scrollUp(){
     window.stop()
