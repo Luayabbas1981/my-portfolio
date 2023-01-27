@@ -7,10 +7,6 @@
     perspective: 200px;
     overflow: hidden;
     width: 100%;
-    margin: auto;
-    
-    
-    
 }
 .sec-bc{
    position: absolute;
@@ -161,11 +157,11 @@ img{
 }
 .go-up , .go-down{
    position: absolute;
-   top: 800px;
-   left: 1650px;
+   top: 82%;
+   left: 87%;
    font-size: 45px;
    cursor: pointer;
-   background-image: linear-gradient(180deg, rgb(197, 198, 200) 48%, #47afff 58%);
+   background-image: linear-gradient(180deg, rgb(197, 198, 200) 48%, #4778ff 58%);
    background-clip: text;
    color: transparent;
    background-size: 100% 150%;
@@ -173,12 +169,12 @@ img{
 }
 
 .go-up{
-    animation: bc-move-up 2.5s infinite ;
-    -webkit-animation: bc-move-up 2.5s infinite ;
+    animation: bc-move-up 2s infinite ;
+    -webkit-animation: bc-move-up 2s infinite ;
 }
 .go-down{
-    animation: bc-move-down 2.5s infinite ;
-    -webkit-animation: bc-move-down 2.5s infinite ;
+    animation: bc-move-down 2s infinite ;
+    -webkit-animation: bc-move-down 2s infinite ;
 }
 @keyframes bc-move-up {
     from {
