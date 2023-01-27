@@ -27,6 +27,7 @@ function Projects() {
  },7500)
 },[])
         console.log(showArrow) 
+        
   return (
 <main>
 <section className='css-sec sec '>

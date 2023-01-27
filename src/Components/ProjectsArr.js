@@ -115,6 +115,10 @@ export const reactArr = [
     {
         name: "My cats",
         link:"https://luayabbas1981.github.io/react-cats/"
-    }
+    } ,
+    {
+        name: "Softwre definitions",
+        link:"https://github.com/Luayabbas1981/programmierdefinitionen#programmierdefinitionen"
+    } 
 ]
 
