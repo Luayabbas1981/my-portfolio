@@ -95,7 +95,7 @@ function Projects() {
 
 <section className='react-sec sec '>
     <div className='sec-bc'></div>
-    <div className='react-sec-header' style={{ color: "royalblue"}}>React projects 2022</div>
+    <div className='react-sec-header' style={{ color: "royalblue"}}>React und README projects 2022</div>
     <div className='react-pros-container '>
 
     {reactArr.map((pro,i)=>{
